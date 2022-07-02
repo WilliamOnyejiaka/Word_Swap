@@ -1,0 +1,21 @@
+let to_be:Vec<char> = (str.to_string().trim()).chars().collect();
+    let skip_chars:Vec<&str> = vec!["!"," ","^","(",")","?",",","."];
+    // let mut temp_str:String = String::from("");
+    // let mut split_word:Vec<String> = vec![];
+
+    // for index in 0..to_be.len(){
+    //     let value:&str = &(to_be[index].to_string());
+    //     if skip_chars.contains(&value) {
+    //         split_word.push(temp_str.clone());
+    //         split_word.push(value.to_string());
+    //         // println!("{}",temp_str);
+    //         temp_str.clear();
+    //     }else {
+    //         temp_str.push_str(value);
+    //         // println!("{}",temp_str);
+    //         if index == to_be.len() -1 {
+    //             split_word.push(temp_str.clone());
+    //         }
+    //     }     
+    //     // println!("{}",to_be[index]);
+    // }
